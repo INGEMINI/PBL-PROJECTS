@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        
+        <script type="text/javascript" src="./lib/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="./lib/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./src/app.js"></script>
+        <script type="text/javascript" src="./src/main.js"></script>
+        <script type="text/javascript" src="./src/genetic-algorithm.js"></script>
+        <script type="text/javascript" src="./src/greedy-algorithm.js"></script>
+        <script type="text/javascript" src="./src/fls-algorithm.js"></script>
+        <script type="text/javascript" src="./src/dp-algorithm.js"></script>
+        <script type="text/javascript" src="./src/bnb-algorithm.js"></script>
+        <script type="text/javascript" src="./src/bnbhk-algorithm.js"></script>
+        <script type="text/javascript" src="./src/greedy-fls-combine.js"></script>
+        <script type="text/javascript" src="./src/utils.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 id="title">TSP Problem Algorithms Demo</h1>
+            </header>
+            <div class="row">
+                <!-- Left Sidebar for Controls -->
+                <div class="col-md-3">
+                    <div id="control_buttons" class="btn-group-vertical w-100">
+                        <select id="cbo_algorithm" class="btn btn-secondary mb-2">
+                            <option value="4">Branch & Bound Algorithm</option>
+                            <option value="6">Branch & Bound HK Algorithm</option>
+                            <option value="3">Dynamic Programming Algorithm</option>
+                            <option value="1">Greedy Algorithm</option>
+                            <option value="2">Local Search Algorithm</option>
+                            <option value="5">Greedy then Local Search</option>
+                        </select>
+                        
+                        <select id="cbo_num" class="btn btn-secondary mb-2">
+                            <option value="10">10 random Points</option>
+                            <option value="20">20 random Points</option>
+                            <option value="50">50 random Points</option>
+                            <option value="100">100 random Points</option>
+                        </select>
+                        
+                        <button id="addRandom_btn" class="btn btn-info mb-2">Add</button>
+                        <button id="start_btn" class="btn btn-primary mb-2">Start/Restart</button>
+                        <button id="stop_btn" class="btn btn-warning mb-2">Stop/Continue</button>
+                        <button id="clear_btn" class="btn btn-danger mb-2">Clear All</button>
+                    </div>
+                    
+                    <div>
+                        <span id="status" class="show-grid"></span>
+                    </div>
+                </div>
+
+                <!-- Canvas Section -->
+                <div class="col-md-9">
+                    <canvas id="canvas" width="940" height="450" style="border:1px solid rgb(201, 204, 0);">
+                        Please change to an HTML5 supported browser to view the demo.
+                    </canvas>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            PBL PROJECT (( SMART PATH : DYNAMIC , MEETS GREEDY ))<br>By team -- DAA-IV-T184  
+            <a href="https://github.com/INGEMINI/PBL-PROJECTS">
+                PROJECT GITHUB REPO LINK
+            </a>
+        </footer>
+    </body>
+</html>

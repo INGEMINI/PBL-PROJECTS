@@ -1,0 +1,46 @@
+#canvas {
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+header {
+    color: white;
+    background-color: #08c;
+    text-align: center;
+}
+
+#title {
+    padding: 10px;
+    font-size: 42px;
+    display: block;
+    letter-spacing: -1px;
+}
+
+.im-centered {
+    margin: auto;
+    max-width: 940px;
+}
+
+#control_buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#control_buttons select,
+#control_buttons button {
+    margin-bottom: 10px;
+}
+
+#status {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
