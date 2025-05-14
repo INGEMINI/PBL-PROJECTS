@@ -1,0 +1,48 @@
+#canvas {
+    border-radius: 6px;
+    margin-top: 25px;
+   
+}
+
+header {
+    color: white;
+    background-color: #e2d820; /* Lighter blue for a softer look */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Subtle font change */
+    padding: 15px 0;
+}
+
+#title {
+    padding: 10px;
+    font-size: 48px;
+    display: block;
+    letter-spacing: -0.5px;
+    font-family: 'Helvetica Neue', sans-serif; /* Cleaner, modern font */
+}
+
+.im-centered {
+    margin: 20px auto;
+    max-width: 940px;
+}
+
+#control_buttons {
+    margin: 20px;
+    text-align: center;
+}
+
+#status {
+    margin: 15px;
+    padding: 15px;
+    background-color: #f1f1f1; /* Subtle light gray background */
+    border-radius: 5px;
+    font-family: 'Courier New', monospace; /* Gives a slight techy feel */
+    color: #702525;
+    text-align: center;
+}
+
+footer {
+    margin-left: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #8f8989; /* Slightly faded color for footer text */
+}
